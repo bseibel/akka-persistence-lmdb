@@ -1,17 +1,15 @@
+*~
+*.swp
 *.class
 *.log
-
-# sbt specific
+.settings
 .cache
-.history
-.lib/
-dist/*
-target/
-lib_managed/
-src_managed/
+.DS_Store
+target
+atlassian-ide-plugin.xml
+workspace.xml
 project/boot/
 project/plugins/project/
-
-# Scala-IDE specific
-.scala_dependencies
-.worksheet
+licensing.info
+.idea/
+.idea_modules/
